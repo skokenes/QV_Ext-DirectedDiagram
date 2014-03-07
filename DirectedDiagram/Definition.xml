@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Path="DirectedDiagram" Label="Directed Diagram" Type="object"  Description="This is a directed diagram" PageWidth="10000" PageHeight="10000">
+	  <Initiate Name="Chart.Dimension.0.Field" Value="" />
+  	  <Initiate Name="Chart.Dimension.1.Field" Value="" />
+  	  <Initiate Name="Chart.Expression.0.0.Definition" Value="=1" />
+ 	  <Initiate Name="Chart.Expression.1.0.Definition" Value="=1" />
+  	  <Initiate Name="Chart.Expression.2.0.Definition" Value="=rgb(200,200,200)" />
+  	  <Initiate Name="Chart.Text.0.Content" Value="=1" />
+  	  <Initiate Name="Chart.Text.1.Content" Value="=1" />
+  	  
+  	  <Initiate Name="Chart.Title" value="Directed Diagram" />
+	  <Initiate Name="Caption.Text" Value="Directed Diagram" />
+	  
+	   <!-- Dimension(s) -->
+ 	  <Dimension Label="Source Node" TargetName="Dimension Source-Node" Initial="" />
+ 	  <Dimension Label="Target Node" TargetName="Dimension Target-Node" Initial="" />
+ 	  
+ 	  <!-- Measurement(s) -->
+  	  <Measurement Label="Source Node Size" TargetName="Source Node Size" Initial="" />
+  	  <Measurement Label="Target Node Size" TargetName="Target Node Size" Initial="" />
+  	  <Measurement Label="Node Color" TargetName="Node Color" Initial="" />
+  	  
+	  <Text Label="Minimum Size" Type="text" Expression=""/>
+	  <Text Label="Maximum Size" Type="text" Expression=""/>
+	
+	
+	<!-- <PropertiesPage Version="11" File="" /> -->
+  </ExtensionObject>
+
+
+
